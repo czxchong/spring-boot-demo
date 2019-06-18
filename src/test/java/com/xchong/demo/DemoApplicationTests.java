@@ -5,8 +5,8 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.Collections;
-import java.util.HashMap;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /*@RunWith(SpringRunner.class)
@@ -43,5 +43,7 @@ public class DemoApplicationTests {
         System.out.println(log3 == log1);
         System.out.println(log3 == log2);
     }
+
+
 
 }
