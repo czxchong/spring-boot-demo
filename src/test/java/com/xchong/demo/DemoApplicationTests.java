@@ -42,6 +42,7 @@ public class DemoApplicationTests {
         System.out.println(log1 == log2);
         System.out.println(log3 == log1);
         System.out.println(log3 == log2);
+        System.out.println("test");
     }
 
 
